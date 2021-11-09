@@ -1,0 +1,40 @@
+h1 {
+	padding: 25px;
+	margin: 10px;
+	background-color: rgba(0,0,0,1);
+	font-family: copperplate;
+	font-size: 70px;
+  text-align: center;
+  color: white;
+	width:1200px;
+}
+
+body {
+	background: rgba(240, 240, 240, 1)
+}
+
+
+p {
+	padding: 10px;
+	margin-top: 40px;
+	font-family: Helvetica;
+	font-size: 20px;
+	width:1250px;
+
+}
+
+Button {
+	height: 45px;
+	width: 160px;
+	background-color: rgba(20,20,20,0.8);
+	font-size: 21px;
+	font-family: sans-serif;
+	color: white;
+	border-radius: 100px;
+}
+
+canvas {
+	padding-left: 0px;
+	margin-left: 460px;
+
+}
