@@ -10,7 +10,7 @@ var ButtonTexBox;
 var result_label_aux = "";
 
 function setup() {
-  var txt = createP('Cash could be confusing for blind people since the banknotes are similar to each other in shape, size and weight. Blind people could have problems in stores buying and receiving change or withdraw money from ATM, they depend on the kindness and honesty of strangers to advise them of the amount of money they have in their hands. But technology advances are helping to blind people to be more independent, for example, they have electronic portable identifiers to recognize money.<br>Banknotes Identifier is a talking application that consists of a Machine Learning model training to recognize 5, 10, 20 and 50 euros banknotes. You just have to put a banknote in front of the camera and a voice will tell you which banknote it is.');
+  var txt = createP('Cash could be confusing for blind people since the banknotes are similar to each other in shape, size and weight. Blind people could have problems in stores buying and receiving change or withdraw money from ATM, they depend on the kindness and honesty of strangers to advise them of the amount of money they have in their hands. But technology advances are helping to blind people to be more independent, for example, they have electronic portable identifiers to recognize money.<br>Banknotes Identifier is a talking application that consists of a Machine Learning model training to recognize 10,20,50,100 ₹ banknotes. You just have to put a banknote in front of the camera and a voice will tell you which banknote it is.');
   txt.style("text-align", "justify");
 
   createCanvas(320, 240);
@@ -24,16 +24,16 @@ function setup() {
 
   txt = createP('To train the model you have to put a banknote in front of the camera and click on the button according to the banknote.<br>Press buttons to train the model');
   txt.style("text-align", "center");
-  var note_5 = createButton("5€");
+  var note_5 = createButton("10₹");
   note_5.class("TrainingButton");
 
-  var note_10 = createButton("10€");
+  var note_10 = createButton("20₹");
   note_10.class("TrainingButton");
 
-  var note_20 = createButton("20€");
+  var note_20 = createButton("50₹");
   note_20.class("TrainingButton");
 
-  var note_50 = createButton("50€");
+  var note_50 = createButton("100₹");
   note_50.class("TrainingButton");
 
   var nothing = createButton("Nothing");
