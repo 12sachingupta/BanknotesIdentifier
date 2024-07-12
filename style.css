@@ -1,40 +1,93 @@
-h1 {
-	padding: 25px;
-	margin: 10px;
-	background-color: rgba(0,0,0,1);
-	font-family: copperplate;
-	font-size: 70px;
-  text-align: center;
-  color: white;
-	width:1200px;
-}
-
 body {
-	background: rgba(240, 240, 240, 1)
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
+header {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin: 1.5rem 0 1rem;
+}
+
+#description {
+    margin-bottom: 2rem;
+}
+
+#upload-section, #result-section {
+    margin: 1rem 0;
+}
+
+#upload-input {
+    margin: 1rem 0;
+}
+
+#identify-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#result-section {
+    display: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
 
 p {
-	padding: 10px;
-	margin-top: 40px;
-	font-family: Helvetica;
-	font-size: 20px;
-	width:1250px;
-
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 20px;
+    width: 100%;
+    text-align: justify;
 }
 
-Button {
-	height: 45px;
-	width: 160px;
-	background-color: rgba(20,20,20,0.8);
-	font-size: 21px;
-	font-family: sans-serif;
-	color: white;
-	border-radius: 100px;
+button {
+    height: 45px;
+    width: 160px;
+    background-color: rgba(20,20,20,0.8);
+    font-size: 21px;
+    color: white;
+    border-radius: 100px;
+    margin: 10px;
 }
 
 canvas {
-	padding-left: 0px;
-	margin-left: 460px;
-
+    margin: 20px auto;
+    display: block;
 }
