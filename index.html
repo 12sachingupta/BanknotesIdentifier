@@ -1,20 +1,38 @@
-
-<html>
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Banknotes Identifier</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <h1>Banknotes Identifier</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banknotes Identifier</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
+    <header>
+        <h1>Banknotes Identifier</h1>
+    </header>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
-  <script src="https://unpkg.com/ml5@0.2.1/dist/ml5.min.js"></script>
-  <script src="sketch.js"></script>
+    <main>
+        <section id="description">
+            <p>Cash could be confusing for blind people since the banknotes are similar to each other in shape, size, and weight. Blind people could have problems in stores buying and receiving change or withdrawing money from ATMs. They depend on the kindness and honesty of strangers to advise them of the amount of money they have in their hands. But technology advances are helping blind people to be more independent. For example, they have electronic portable identifiers to recognize money. Banknotes Identifier is a talking application that uses a Machine Learning model to recognize 10, 20, 50, and 100 ₹ banknotes. Just put a banknote in front of the camera, and a voice will tell you which banknote it is.</p>
+        </section>
+        <section id="upload-section">
+            <h2>Upload a Banknote Image</h2>
+            <input type="file" id="upload-input">
+            <button id="identify-button">Identify Banknote</button>
+        </section>
+        <section id="result-section">
+            <h2>Identification Result</h2>
+            <div id="result"></div>
+        </section>
+    </main>
 
+    <footer>
+        <p>&copy; 2024 Banknotes Identifier</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.2.1/dist/ml5.min.js"></script>
+    <script src="sketch.js"></script>
 </body>
-
 </html>
